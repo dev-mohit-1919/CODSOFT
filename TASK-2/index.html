@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Ubuntu&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img src="img/logo.png" alt="logo" height="100" width="100"></div>
+            <div class="left">My Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pages/about.html">About</a></li>
+                    <li><a href="pages/projects.html">Projects</a></li>
+                    <li><a href="pages/contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Mohit</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+
+                <div class="buttons">
+                    <a href="https://github.com/dev-mohit-1919" target="_main"><button class="btn">Visit Github</button></a>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="/img/bgi.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-grey">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="img/developer.png" alt="">
+                    <div class="vertical-title">
+                        Web Developer
+                    </div>
+                    <div class="verticle-desc">
+                        I am a fresher in web devloping. I have basic knowledge of HTML,CSS and Java script. A web.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="/img/gd.png" alt="img">
+                    <div class="vertical-title">
+                        Graphic Designer
+                    </div>
+                    <div class="verticle-desc">
+                        I have three months of experience in Graphic Design.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="/img/wdsg.png" alt="img">
+                    <div class="vertical-title">
+                        Web Designer
+                    </div>
+                    <div class="verticle-desc">
+                        I have eight months of experience in this field.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="/img/ve.png" alt="">
+                    <div class="vertical-title">
+                        Video Editor
+                    </div>
+                    <div class="verticle-desc">
+                        A video editor is someone who edits video footage and arranges it into a final product.
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Mohit's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Web Design</li>
+                    <li>Graphic Design</li>
+                    <li>Sketch Design</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Privacy</li>
+                    <li>Condition</li>
+                    <li>FAQs</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; mohitportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphic Designer', 'Web Designer', 'Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
